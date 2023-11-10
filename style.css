@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+body{
+    font-family: 'Agbalumo';
+}
+
+
+
+.rouge{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration:underline;
+
+} 
+
+.boite{
+    background-color: green;
+}
+.cercle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.vert{
+    background-color: green;
+}
+.rose{
+    background-color: pink;
+}
+.bleu{
+background-color: blue;
+}
+.boiteCercle{
+    border:3px solid black;
+    height: 90vh ;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction:column-reverse
+}
+
+.barbecue{
+    height: 90vh;
+    width: 98vw;
+    background-image: url("barbecue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boulette{
+    height: 25vh;
+    width: 25vh;
+    background-image: url("boeuf.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
